@@ -1,7 +1,11 @@
-declare class SigningStargateClientWithLit {
-  static createClient(pubKey: string, authSig: any, rpc: any): Promise<SigningStargateClientWithLit>;
+import { DeliverTxResponse } from "@cosmjs/stargate/build/stargateclient";
 
-  sendTokens(recipient: string, amount: any, fee: any): Promise<any>;
+declare class SigningStargateClientWithLit {
+  constructor(pubKey: string, authSig: any, rpc: string, options: any);
+
+  static createClient(pubKey: string, authSig: any, rpc: string): Promise<SigningStargateClientWithLit>;
+
+  sendTokens(recipient: string, amount: any, fee: any): Promise<DeliverTxResponse>;
 }
 
 export { SigningStargateClientWithLit };

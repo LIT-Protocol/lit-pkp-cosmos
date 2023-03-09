@@ -1,11 +1,10 @@
 {
   "name": "lit-pkp-cosmos",
-  "version": "1.0.2",
-  "type": "module",
+  "version": "1.0.4",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "node src/test.ts"
+    "prepublish": "tsc"
   },
   "author": "",
   "license": "ISC",
