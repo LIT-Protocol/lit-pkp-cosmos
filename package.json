@@ -1,8 +1,8 @@
 {
   "name": "lit-pkp-cosmos",
   "version": "1.0.5",
-  "main": "dist/*",
-  "types": "dist/*",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -16,6 +16,7 @@
     "@cosmjs/stargate": "^0.29.5",
     "@ethersproject/sha2": "^5.7.0",
     "@lit-protocol/lit-node-client": "^2.1.55",
+    "elliptic": "^6.5.4",
     "eth-crypto": "^2.5.0"
   },
   "devDependencies": {

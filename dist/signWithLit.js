@@ -33,6 +33,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.signCosmosTxWithLit = void 0;
+// @ts-nocheck
 const LitJsSdk = __importStar(require("@lit-protocol/lit-node-client"));
 const sha2_1 = require("@ethersproject/sha2");
 const encoding_1 = require("@cosmjs/encoding");
