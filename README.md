@@ -23,6 +23,8 @@ yarn add lit-pkp-cosmos
 Instantiate a signer with the PKP public key, a valid auth sig of the owning wallet, and an RPC for the Cosmos Network.
 
   ```
+  import { SigningStargateClientWithLit } from "lit-pkp-cosmos";
+  
   const pkpCosmosSigner = await SigningStargateClientWithLit.createClient(
     pkpPubKey, // uncompressed public key
     pkpOwnerAuthSig, // authSig of the owning party
