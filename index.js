@@ -1,7 +1,5 @@
-import { pkpPubKeyToCosmosAddress } from "./src/litHelpers.ts";
-import { SigningStargateClientWithLit } from "./src/SigningStargateClientWithLit.ts";
+import { SigningStargateClientWithLit } from "./src/SigningStargateClientWithLit";
 
 export {
-  pkpPubKeyToCosmosAddress,
   SigningStargateClientWithLit
 }
