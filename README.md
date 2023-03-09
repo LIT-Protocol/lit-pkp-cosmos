@@ -5,7 +5,7 @@
 <a href="https://twitter.com/LitProtocol"><img src="https://img.shields.io/twitter/follow/litprotocol?label=Follow&style=social"/></a>
 <br/>
 <br/>
-A small complimentary package for CosmJS that allows PKPs to sign and send transactions on the Cosmos Network.
+A small, complimentary package for CosmJS that allows PKPs to sign and send transactions on the Cosmos Network.
 </div>
 
 ### Install:
