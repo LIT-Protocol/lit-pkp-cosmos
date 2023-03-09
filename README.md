@@ -34,8 +34,8 @@ Instantiate a signer with the PKP public key, a valid auth sig of the owning wal
 
 [Mint PKPs here](https://explorer.litprotocol.com/)
 
-<br>
-To use, pass a valid Cosmos address, an amount, and fee.  The fee must be hardcoded since the transactions cannot be simulated with PKPs.
+To use, pass a valid Cosmos address, an amount, and fee. The fee must be hardcoded since the transactions cannot be
+simulated with PKPs.
 
 ```
   const txRes = await pkpCosmosSigner.sendTokens(
