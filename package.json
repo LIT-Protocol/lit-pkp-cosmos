@@ -1,0 +1,27 @@
+{
+  "name": "lit-pkp-cosmos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cosmjs/amino": "^0.29.5",
+    "@cosmjs/crypto": "^0.29.5",
+    "@cosmjs/encoding": "^0.29.5",
+    "@cosmjs/stargate": "^0.29.5",
+    "@lit-protocol/lit-node-client": "^2.1.52",
+    "eth-crypto": "^2.5.0",
+    "@ethersproject/sha2": "^5.7.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "engine": {
+    "node": ">=18.0.0"
+  }
+}
