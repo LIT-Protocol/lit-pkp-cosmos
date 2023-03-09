@@ -4,4 +4,4 @@ declare class SigningStargateClientWithLit {
   sendTokens(recipient: string, amount: any, fee: any): Promise<any>;
 }
 
-export = SigningStargateClientWithLit;
+export { SigningStargateClientWithLit };
