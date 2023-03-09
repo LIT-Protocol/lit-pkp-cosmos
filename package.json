@@ -1,11 +1,20 @@
 {
   "name": "lit-pkp-cosmos",
-  "version": "1.0.5",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "build": "tsc"
+  "version": "1.0.7",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LIT-Protocol/lit-pkp-cosmos"
   },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
